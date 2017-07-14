@@ -21,6 +21,7 @@ class BookList extends Component {
 	}
 }
 
+// iterate through books array and show list
 function mapStateToProps(state) {
 	// whatever gets returned will show up as props inside of BookList
 	return {
